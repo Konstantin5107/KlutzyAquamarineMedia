@@ -11,4 +11,5 @@ while user_number != number and attempts <3:
 if user_number == number:
     print("Это верно, я загадал число", number)
     print("Ты выиграл")
+elif attempts == 3 and user_number != number:
     print("Ты проиграл")
