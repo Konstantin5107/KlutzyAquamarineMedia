@@ -1,18 +1,3 @@
-import random
-number = random.randint(0, 5)
-print("Попробуй угадать число от 0 до 5!")
-user_number = int(input("Введи число: "))
-attempts = 1
-while user_number != number and attempts <3:
-    print("Не угадал")
-    user_number -= user_number
-    user_number = int(input())
-    attempts += 1
-if user_number == number:
-    print("Это верно, я загадал число", number)
-    print("Ты выиграл")
-elif attempts == 3 and user_number != number:
-    print("Ты проиграл")
 from turtle import width
 from PIL import Image,ImageDraw,ImageFont
 from PIL.ImageFont import truetype
@@ -41,4 +26,4 @@ draw.text((0,0), text2 , font = font, fill = "black")
 text = draw.textbbox((0,0),text2 , font)
 textw = text[2]
 draw.text(((width - textw)/2 , 10 , text2 , font == font ,fill == "black"))
-image.save("new_meme.jpg")
+image.save("new_meme.jpg")image.save("new_meme.jpg") 
