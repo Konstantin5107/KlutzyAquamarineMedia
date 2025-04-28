@@ -1,6 +1,7 @@
 import random
 from random import choice
 
+print("Добро пожаловать в игру про приключения рыцаря!")
 health = 100
 level = 0
 bogatstvo = 0
